@@ -1,0 +1,28 @@
+{
+  "name": "tg-bot-course",
+  "version": "1.0.0",
+  "description": "Telegram bot develop course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/bot.js",
+    "dev": "nodemon",
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "nodemon": "^3.1.7",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@grammyjs/runner": "^2.0.3",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.30.0"
+  }
+}
